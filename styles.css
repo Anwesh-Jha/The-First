@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.header {
+    background-color:rgb(4, 4, 34);
+    color: rgb(237, 237, 237);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 4px solid rgb(179, 241, 245);
+}
+
+.home-main ul {
+    list-style-type:none;
+}
+
+.home-main {
+    background-color: rgba(23, 23, 23, 0.856);
+    padding: 20px;
+    height: 78vh;
+    color: rgb(221, 255, 252);
+   
+}
+.home-main ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.home-main ul li a :hover{
+    color: rgb(0, 174, 255);
+}
+.home-main h2 {
+    font-size:30px;
+    padding-left: 30px;
+}
