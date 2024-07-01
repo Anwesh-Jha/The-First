@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-bottom: 4px solid rgb(179, 241, 245);
+
 }
 
 .home-main ul {
@@ -29,7 +29,6 @@ body {
     padding: 20px;
     height: 78vh;
     color: rgb(221, 255, 252);
-   
 }
 .home-main ul li a {
     text-decoration: none;
