@@ -1,34 +1,85 @@
+@font-face {
+    font-family: 'Japan';
+    src: url('japan-daisuki.regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Para';
+    src: url('shikamaru.regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: sans-serif;
+    font-family: para;
     font-optical-sizing: auto;
     font-style: normal;
+    background-image: linear-gradient(rgb(32, 1, 1), rgb(1, 0, 0)) ;   
 }
-
-.header {
-    background-color:rgb(85, 85, 234);
-    color: rgb(4, 4, 34);
-    padding: 10px;
-    width: 100%;
+.nav{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: end;
+color: rgb(255, 226, 175);
+width: 100%;
+position: fixed;
+}
+.nav img{
+    height: 50px;
+    justify-self: start;
+}
+.nav ul{
     display: flex;
-    align-items: center;
-    
-    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    }
+    .nav ul li{
+        position: relative;
+    }
+    .links li a{
+        margin: 12px;
+        color:rgb(255, 226, 175);
+        text-decoration: none;
+        justify-self: end;
+    }
+    .nav ul li  :hover{
+        color:white;
+        transform: translateY(1px);
+    }
+.host{
+    color: rgb(253, 240, 164);
+    font-family: Japan;
+    height: 100vh;
+    font-size: 42pt;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(bg.PNG);
+}
+.host h1{
+    margin-bottom: 10px;
+}
+.host  :hover{
+transform: scale(110%);
+transform: rotate(-2deg);
+transition: 0.5s ease-in-out;
+text-shadow: rgba(255,162,0,0.88) 0px 0px 93px;
 }
 
 .home-main ul {
     list-style-type:none;
+    font-size: larger;
+
 }
-
 .home-main {
-    background-color:rgb(4, 4, 34);
     padding: 20px;
-
-    color: rgb(221, 255, 252);
+    color: rgb(253, 240, 164);
 }
 .home-main ul{
     display: flex;
@@ -40,27 +91,33 @@ body {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-.home-main ul li a :hover{
-    color: rgb(0, 174, 255);
-}
+
 .home-main h2 {
     font-size:30px;
     padding-left: 30px;
 }
 .lit {
-    background-color:rgb(85, 85, 234);
     padding: 10px;
-    width: 150px;
-    border-radius: 15px;
+    background-color:rgba(242, 200, 49, 0.873);
+    height: 40px;
+    width: 250px;
+    border-radius: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.lit :hover{
-    color: rgb(4, 4, 34);
-
-}
 .gitlogo{
     color: white;
     text-decoration: none;
+}
+.container :hover{
+    transform: scale(110%);
+    transition: 0.3s ease-in-out;
+    background-color:rgb(255, 236, 95);
+    color: black;
+    border-radius: 20px;
+    -webkit-box-shadow:0px 0px 136px 23px rgba(255,178,46,1);
+-moz-box-shadow: 0px 0px 136px 23px rgba(255,178,46,1);
+box-shadow: 0px 0px 136px 23px rgba(255,178,46,1);
+    
 }
