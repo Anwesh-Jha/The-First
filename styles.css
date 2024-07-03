@@ -64,6 +64,9 @@ position: fixed;
     justify-content: center;
     background-image: url(bg.PNG);
 }
+.host a{
+    color: rgb(253, 240, 164);
+}
 .host h1{
     margin-bottom: 10px;
 }
