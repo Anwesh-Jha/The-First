@@ -20,7 +20,7 @@ body {
     font-family: para;
     font-optical-sizing: auto;
     font-style: normal;
-    background-image: linear-gradient(rgb(84, 0, 0), rgb(1, 0, 0)) ;   
+    background-image: linear-gradient(rgb(84, 0, 0), rgb(1, 0, 0)) ;
 }
 .nav{
 display: flex;
@@ -63,6 +63,8 @@ position: fixed;
     align-items: center;
     justify-content: center;
     background-image: url(bg.PNG);
+    background-repeat: none;
+    background-size: cover;
 }
 .host a{
     color: rgb(253, 240, 164);
