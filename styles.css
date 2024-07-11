@@ -20,12 +20,8 @@ body {
     font-family: para;
     font-optical-sizing: auto;
     font-style: normal;
-<<<<<<< HEAD
     background-image: linear-gradient(rgb(84, 0, 0), rgb(1, 0, 0)) ;   
     
-=======
-    background-image: linear-gradient(rgb(84, 0, 0), rgb(1, 0, 0)) ;
->>>>>>> ec6866c58cd687b0350318b9d3c5749030dd6b6a
 }
 .nav{
 display: flex;
@@ -68,11 +64,7 @@ position: fixed;
     align-items: center;
     justify-content: center;
     background-image: url(bg.PNG);
-<<<<<<< HEAD
     background-repeat:no-repeat ;
-=======
-    background-repeat: none;
->>>>>>> ec6866c58cd687b0350318b9d3c5749030dd6b6a
     background-size: cover;
 }
 .host a{
@@ -137,15 +129,7 @@ text-shadow: rgba(255,162,0) 0px 0px 93px;
     background-color:rgb(255, 236, 95);
     color: black;
     border-radius: 20px;
-<<<<<<< HEAD
     -webkit-box-shadow:0px 0px 105px 15px rgba(255,185,46,0.69);
     -moz-box-shadow: 0px 0px 105px 5px rgba(255,185,46,0.69);
     box-shadow: 0px 0px 105px 15px rgba(255,185,46,0.69);
 }
-=======
-    -webkit-box-shadow:0px 0px 136px 23px rgba(255,178,46,1);
--moz-box-shadow: 0px 0px 136px 23px rgba(255,178,46,1);
-box-shadow: 0px 0px 136px 23px rgba(255,178,46,1);
-    
-}
->>>>>>> ec6866c58cd687b0350318b9d3c5749030dd6b6a
