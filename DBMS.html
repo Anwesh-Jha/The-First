@@ -6,31 +6,67 @@
     <title>June 26</title>
 
     <style>
+      @font-face {
+    font-family: 'Para';
+    src: url('shikamaru.regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
       body {
         margin: 0;
         padding: 0;
-        background-color: #292929;
-        color: aliceblue;
+        background-color: rgb(51, 0, 0);
+        color: rgb(255, 239, 117);
         max-width: 800px;
+        font-family: 'Para';
       }
+      ul{
+        list-style-type: none;
+      }
+      ul li{
+        margin: 20px;
+        padding: 10px;
+        color:rgb(255, 239, 117);
+        background-color: rgb(97, 12, 12);
+        border-radius: 10px;
+        transition: 0.3s ease-in-out;
+        box-shadow: 17px 16px 24px 8px rgba(0,0,0,0.49);
+-webkit-box-shadow: 17px 16px 24px 8px rgba(0,0,0,0.49);
+-moz-box-shadow: 17px 16px 24px 8px rgba(0,0,0,0.49);
+        
+      }
+      ul  :hover{
+        background-image: url(bgbox.gif);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: rgb(255, 239, 117);
+        color:rgb(97, 12, 12) ;
+        transform: translateY(-10px);
+        transform: scale(110%);
+        transition: 0.3s ;
+        -webkit-box-shadow:0px 0px 105px 15px rgba(255,185,46,0.69);
+-moz-box-shadow: 0px 0px 105px 5px rgba(255,185,46,0.69);
+box-shadow: 0px 0px 105px 15px rgba(255,185,46,0.69);
+      }
+
     </style>
   </head>
   <body>
+    <center>
      <center> <h1>Some DBMS Terminology</h1></center>
       <ul>
         <li>
           Data :
-          <p >
+          <br>
             Data refers to raw facts, figures, observations, or information that
             can be processed or used for various purposes, especially in
             computing. Data can be in the form of numbers, text, images, or
             other formats, and it often serves as the foundation for analysis,
             decision-making, and communication. 
-          </p>
         </li>
         <li>
           Information :
-          <p >
+          <br>
             Information can be seen as processed or organized data that has been
             given meaning and context. It is the result of interpreting,
             analyzing, or organizing data in a meaningful way. Unlike raw data,
@@ -40,51 +76,50 @@
         </li>
         <li>
           Meta Data :
-          <p >
-            Metadata refers to data that provides information about other data.
+          <br>      Metadata refers to data that provides information about other data.
             It describes various aspects of data, such as its content,
             structure, format, location, ownership, and usage. Metadata is
             commonly used to facilitate the understanding, management, and
             organization of data.
-          </p>
+          
         </li>
         <li>
           Data dictionary :
-          <p >
+          <br>
             A data dictionary is a centralized repository of metadata about the
             data within a database or dataset. It provides detailed descriptions
             of the structure, format, semantics, and relationships of the data
             elements or attributes. Essentially, a data dictionary serves as a
             reference guide that helps users understand and interpret the
             meaning and characteristics of the data.
-          </p>
+          
         </li>
         <li>
           Database :
-          <p >
+          <br>
             A database is a structured repository where data is organized and
             stored electronically within a computer system. It serves as a
             centralized mechanism to efficiently manage, manipulate, retrieve,
             and update large volumes of related data. Databases are essential
             components in computing, facilitating the structured storage of
             information across various applications and systems. 
-          </p>
+          
         </li>
 
         <li>
           Table :
-          <p >
+          <br>
             A table is a fundamental organizational structure used to store and
             manage data in a structured format. Tables are part of relational
             databases, which are among the most common types of databases used
             today. Each table in a relational database consists of rows (also
             known as records or tuples) and columns (also known as fields or
             attributes). 
-          </p>
+          
         </li>
         <li>
           Tuple :
-          <p >
+          <br>
             A tuple refers to a single row or record within a table that
             contains a set of related data elements. Tuples are fundamental
             units of data storage and organization in relational databases,
@@ -92,21 +127,21 @@
             information.In summary, tuples in databases serve as the primary
             means of organizing and representing individual data entries within
             tables. 
-          </p>
+          
         </li>
         <li>
           Domain :
-          <p >
+          <br>
             In the context of databases and data management, a domain refers to
             the set of possible values that a data element (or attribute) can
             contain. It defines the permissible range of values that a specific
             column in a table can hold, based on its data type and any
             constraints applied to it.
-          </p>
+          
         </li>
         <li>
           Key :
-          <p >
+          <br>
             A "key" refers to a special attribute or set of attributes that
             uniquely identify a tuple (row) within a table. Keys play a
             fundamental role in relational database design and management,
@@ -114,9 +149,10 @@
             retrieval.Keys are crucial for maintaining data integrity,
             facilitating data relationships (through foreign keys), and
             optimizing query performance in relational databases.
-          </p>
+          
         </li>
       </ul>
     </div>
+  </center>
   </body>
 </html>
